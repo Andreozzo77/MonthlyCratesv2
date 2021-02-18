@@ -24,7 +24,7 @@ class Utils extends RewardInventorys
 	public static $menu;
 
 	/** @var array $recievedItem */
-	public static array $recievedItem = [];
+	public static $recievedItem = [];
 
 	public static function sendMCMenu(Player $player, string $type)
 	{
