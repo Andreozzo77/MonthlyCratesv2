@@ -13,7 +13,7 @@ use pocketmine\Player;
 class RewardInventorys{
 
 	/** @var array $outSideGrid */
-	public static array $outSideGrid = [];
+	public static $outSideGrid = [];
 
 	public static function sendRewardInventorys(InvMenuInventory $menu, string $type){
 		switch ($type) {
