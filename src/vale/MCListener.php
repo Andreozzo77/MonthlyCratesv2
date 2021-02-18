@@ -12,16 +12,16 @@ use vale\utils\Utils;
 class MCListener implements Listener
 {
 	/** @var array|int[] $grid */
-	public array $grid = [0, 1, 2, 3, 4, 5, 6, 7, 8, 19];
+	public $grid = [0, 1, 2, 3, 4, 5, 6, 7, 8, 19];
 
 	/** @var \vale\MonthlyCrates $loader */
-	public MonthlyCrates $loader;
+	public $loader;
 
 	#ty verge learned something
 	/** @var array $isOpening */
 	public static $isOpening = [];
 	/** @var array $cd */
-	public static array $cd = [];
+	public static $cd = [];
 
 	public function __construct(MonthlyCrates $loader)
 	{
