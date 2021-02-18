@@ -25,7 +25,7 @@ class MCCommand extends PluginCommand{
 	 * MonthlyCrate constructor.
 	 * @param MonthlyCrates$plugin
 	 */
-	public MonthlyCrates $plugin;
+	public $plugin;
 
 	public function __construct($name, MonthlyCrates $plugin) {
 
