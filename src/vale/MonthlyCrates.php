@@ -9,7 +9,7 @@ use vale\cmd\MCCommand;
 class MonthlyCrates extends PluginBase{
 
     /** @var $instance */
-	private static MonthlyCrates $instance;
+	private static $instance;
 
 	public function onEnable(): void{
 		if(!InvMenuHandler::isRegistered()){
